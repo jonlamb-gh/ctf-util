@@ -1,0 +1,16 @@
+[package]
+name = "ctf-util"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jon Lamb"]
+
+[dependencies]
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+exitcode = "1.1"
+clap = { version = "4.5", features = ["derive"] }
+bytes = "1.9"
+babeltrace2-sys = "0.3"
+
+[profile.release]
+strip="debuginfo"
