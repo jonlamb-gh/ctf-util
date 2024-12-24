@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-LABEL org.opencontainers.image.source=https://github.com/jonlamb-gh/ctf-util
+LABEL org.opencontainers.image.source="https://github.com/jonlamb-gh/ctf-util"
 LABEL org.opencontainers.image.description="Docker image for ctf-util"
 LABEL org.opencontainers.image.licenses=MIT
 
